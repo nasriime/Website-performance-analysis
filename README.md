@@ -27,6 +27,7 @@ we analysis this website [Kiwi.com](https://www.kiwi.com/en/search/results/vienn
 The JS & CSS are better to split them up depending on the page to load faster.
 - **Tree shaking** 
 It is a term commonly used in the JavaScript context for dead-code elimination.
+
 **Resources:** 
 https://vuejs.org/guide/best-practices/performance#code-splitting
 https://vuejs.org/guide/best-practices/performance#bundle-size-and-tree-shaking
@@ -45,7 +46,7 @@ Tools like **PurgeCSS** and Webpack plugins can help extract unused code.
 - **Image elements do not have explicit *width* and *height***
 Set an explicit width and height on image elements to reduce layout shifts and improve CLS.
 
-**Resources**
+**Resources:**
 https://gtmetrix.com/use-explicit-width-and-height-on-image-elements.html
 https://dev.to/grahamthedev/quick-tips-how-to-fix-image-elements-do-not-have-explicit-width-and-height-in-page-speed-insights-lighthouse-3776
 
@@ -57,13 +58,16 @@ An indicator of page interaction performance.
 - Only send the code that your users need by implementing code splitting.
 - Minify and compress your code: 
 **Files minify:** Minification makes a difference because it reduces file size and improves loading speed
+
 **Compressing files with gzip or brotli:** It's important to compress HTML, JS, and CSS files to make them smaller. Browsers support automatic decompression.
 - Remove unused code.
 - Reduce network trips by caching your code with the PRPL pattern:
+
 **TTL for cache:** Increasing the TTL helps reduce the load on the server, thus improving performance.
 
 **Reduce the impact of third-party code**
 - Use web worker: ***Partytown*** is a lazy-loaded library to help relocate resource intensive scripts into a web worker, and off of the main thread.
+
 **Resources:**
 https://medium.com/@shivam_99875/boosting-javascript-web-performance-with-partytown-82c510f8a88a
 
@@ -72,7 +76,7 @@ https://medium.com/@shivam_99875/boosting-javascript-web-performance-with-partyt
 *preload:* load content that's required for the intial render.
 *prefetch:* load content that may be needed to render the next page.
 *preconnect:* establish a server connection without loading a specific resource yet.
-**Resources**
+**Resources:**
 https://onur.dev/writing/optimizing-website-speed-with-preload-prefetch-preconnect-and-dns-prefetch
 
 
