@@ -4,7 +4,9 @@
 Yes, optimization is very important for several reasons:
 
 Search engines like Google take loading speed into account when ranking websites.
+
 **Hosting cost:** Optimizing performance reduces the amount of data sent, which helps reduce the cost of hosting or traffic fees.
+
 **User experience:** A faster website means a better experience, and this helps reduce the bounce rate.
 
 ### How to measure it?
@@ -97,18 +99,22 @@ https://nitropack.io/blog/post/avoid-an-excessive-dom-size
 Images that appear above the fold (at the top of the screen) cannot be lazy loaded because they need to appear quickly to optimize the LCP.
 
 **Resources:** 
+
 https://web.dev/articles/browser-level-image-lazy-loading
 
 ### Responsive Images
 The collection of image files a user agent (e.g. a web browser) can choose from. It's like a competition of images — you provide a set of images for one image location on a web page, and the browser of each user picks and downloads the one that best fits its needs.
 
 **Resources:**
+
  https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 
 ### WebP and AVIF
 Using WebP or AVIF makes a big difference in the size of the images compared to JPEG or PNG. AVIF usually compresses images better than WebP.
+
 **Resources:**
 https://www.smashingmagazine.com/2021/09/modern-image-formats-avif-webp/
+
 ### CDN (Content Delivery Network): 
 A content distribution network that allows files to be served from the closest server to the user, thereby minimizing load times.
 Using a CDN is better if the files are static and you have a lot of visitors from different geographical areas because it reduces latency.
@@ -132,6 +138,7 @@ These checks highlight opportunities to improve the accessibility of your web ap
 ![Accessibility_3](images/Accessibility_3.PNG)
 ![Accessibility_4](images/Accessibility_4.PNG)
 **Resources:**
+
  https://www.acquia.com/blog/ways-to-improve-web-accessibility
 
 ---
@@ -140,6 +147,7 @@ These checks highlight opportunities to improve the accessibility of your web ap
 ![SEO](images/SEO.PNG)
 
 **Resources:**
+
 https://developer.chrome.com/docs/lighthouse/seo/is-crawlable
 
 ---
